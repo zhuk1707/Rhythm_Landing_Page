@@ -1,0 +1,20 @@
+@import "reset";
+@import "../src/fonts/_fonts";
+@import "../src/colors/_colors";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+[class *= __container] {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
