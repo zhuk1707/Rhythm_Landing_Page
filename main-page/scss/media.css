@@ -1,0 +1,69 @@
+@media (max-width: 1092px) {
+  .header__container {
+    gap: 50px;
+    min-height: 80px;
+  }
+  .menu__list {
+    column-gap: 40px;
+  }
+  .main__content {
+    flex: 0 0 60%;
+    padding-bottom: 0;
+  }
+  .main__decor {
+    flex: 0 0 40%;
+  }
+  .main__image img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .header__container {
+    min-height: 70px;
+  }
+  .main__content {
+    flex: 1 1 100%;
+    padding-right: 0;
+    padding-top: 80px;
+  }
+  .main__decor {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .header__container {
+    gap: 20px;
+  }
+  .header__logo {
+    width: 28px;
+    overflow: hidden;
+    flex: 0 0 28px;
+  }
+  .menu {
+    padding: 0;
+  }
+  .menu__list {
+    column-gap: 20px;
+  }
+  .main__content {
+    flex: 1 1 100%;
+    padding-right: 0;
+    padding-top: 80px;
+  }
+  .main__decor {
+    display: none;
+  }
+  .actions-main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .actions-main__button {
+    flex: 1 1 100%;
+  }
+  .actions-main__button:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
