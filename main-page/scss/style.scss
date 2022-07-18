@@ -13,12 +13,29 @@
   flex: 1 1 auto;
   &__main {
   }
+  &__store {
+    margin-top: 80px;
+    margin-bottom: 180px;
+  }
 }
 
 [class *= __container] {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.title {
+  font-family: CalcSans, sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.2;
+  color: $primary-black;
+  text-align: center;
+
+  span {
+    color: $primary-orange;
+  }
 }
 
 /* <header> */
@@ -95,6 +112,7 @@
     font-weight: 600;
     line-height: 1.2;
     color: $primary-black;
+
 
     span {
       color: $primary-orange;
@@ -189,3 +207,100 @@
   }
 }
 
+/* .store */
+.store {
+  &__container {
+  }
+
+  &__title {
+    margin-bottom: 86px;
+  }
+
+  &__body {
+  }
+}
+
+.body-store {
+  &__header {
+    margin-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: $primary-black;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $grey;
+
+    transition: all .3s ease;
+    &:hover {
+      color: $primary-orange;
+    }
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 54px;
+  }
+
+  &__item {
+
+  }
+}
+
+.item-store {
+  display: grid;
+
+  &__image {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+    }
+
+    &:not(:last-child){
+      margin-bottom: 40px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $primary-black;
+    justify-self: start;
+    border-bottom: 1px solid transparent;
+
+    transition: all .3s ease;
+    &:hover {
+      border-bottom-color: $primary-black;
+    }
+
+
+  }
+
+  &__price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: $primary-grey;
+  }
+}
