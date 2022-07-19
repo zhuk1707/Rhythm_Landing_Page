@@ -27,8 +27,14 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 54px;
   }
+  .categories_items {
+    column-gap: 35px;
+  }
 }
 @media (max-width: 768px) {
+  .page__store {
+    margin-bottom: 50px;
+  }
   .title {
     font-size: 38px;
   }
@@ -53,6 +59,16 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 54px;
+  }
+  /*----*/
+  .page__categories {
+    margin-bottom: 50px;
+  }
+  .categories__title {
+    margin-bottom: 30px;
+  }
+  .categories_items {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 500px) {
@@ -91,6 +107,15 @@
   }
   .item-store__image:not(:last-child) {
     margin-bottom: 0;
+  }
+  /*----*/
+  .categories__title {
+    margin-bottom: 30px;
+  }
+  .categories_items {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
   }
 }
 
