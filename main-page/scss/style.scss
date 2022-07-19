@@ -413,3 +413,75 @@
     }
   }
 }
+
+/*--Why--*/
+.page {
+  &__why {
+    padding: 95px 0 55px;
+  }
+}
+
+.why {
+  background-color: #121212;
+
+  &__title {
+    margin-bottom: 40px;
+    color: #FFFFFF;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  &__item {
+  }
+}
+
+.item-why {
+  display: grid;
+  justify-items: center;
+  padding: 40px;
+  text-align: center;
+
+  &__icon {
+    background-color: #262626;
+    border-radius: 20px;
+    display: flex;
+    width: 72px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    img {
+
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+  }
+
+  &__text {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 230px;
+  }
+}
