@@ -408,4 +408,14 @@ body {
   max-width: 230px;
 }
 
+/*--Reviews--*/
+.page__reviews {
+  margin-top: 240px;
+  margin-bottom: 240px;
+}
+
+.reviews__title {
+  margin-bottom: 110px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -50,6 +50,19 @@
     }
   }
 
+  /*--Reviews--*/
+  .page {
+    &__reviews {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+  }
+
+  .reviews {
+    &__title {
+      margin-bottom: 80px;
+    }
+  }
 
 }
 
@@ -161,6 +174,19 @@
     }
   }
 
+  /*--Reviews--*/
+  .page {
+    &__reviews {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .reviews {
+    &__title {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 
@@ -259,4 +285,5 @@
     padding-bottom: 0;
   }
 }
+
 

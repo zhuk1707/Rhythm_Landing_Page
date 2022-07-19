@@ -30,6 +30,14 @@
   .categories_items {
     column-gap: 35px;
   }
+  /*--Reviews--*/
+  .page__reviews {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .reviews__title {
+    margin-bottom: 80px;
+  }
 }
 @media (max-width: 768px) {
   .page__store {
@@ -91,6 +99,14 @@
   .why__items {
     grid-template-columns: repeat(2, auto);
     row-gap: 0;
+  }
+  /*--Reviews--*/
+  .page__reviews {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .reviews__title {
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 500px) {
