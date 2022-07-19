@@ -70,6 +70,17 @@
   .categories_items {
     grid-template-columns: repeat(2, 1fr);
   }
+  /*--Brands--*/
+  .page__brands {
+    margin-bottom: 50px;
+  }
+  .brands__title {
+    margin-bottom: 30px;
+  }
+  .brands__items {
+    grid-template-columns: repeat(2, auto);
+    row-gap: 40px;
+  }
 }
 @media (max-width: 500px) {
   .header__container {
@@ -109,13 +120,17 @@
     margin-bottom: 0;
   }
   /*----*/
-  .categories__title {
-    margin-bottom: 30px;
-  }
   .categories_items {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 15px;
     row-gap: 15px;
+  }
+  /*-----*/
+  .brands__items {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 15px;
   }
 }
 

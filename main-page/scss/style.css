@@ -274,7 +274,7 @@ body {
   color: #666666;
 }
 
-/*---*/
+/*--Categories--*/
 .categories_items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -328,6 +328,29 @@ body {
 }
 .item-category:hover .item-category__image img {
   transform: scale(1.1);
+}
+
+/*--Brands--*/
+.page__brands {
+  margin-bottom: 180px;
+}
+
+.brands__title {
+  margin-bottom: 75px;
+}
+.brands__items {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 80px;
+}
+.brands__item {
+  text-align: center;
+}
+.brands__item img {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

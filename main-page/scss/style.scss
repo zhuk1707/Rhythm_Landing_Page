@@ -309,7 +309,7 @@
   }
 }
 
-/*---*/
+/*--Categories--*/
 .categories {
   &_items {
     display: grid;
@@ -381,5 +381,35 @@
 
   &:hover &__image img {
     transform: scale(1.1);
+  }
+}
+
+/*--Brands--*/
+.page {
+  &__brands {
+    margin-bottom: 180px;
+  }
+}
+
+.brands {
+  &__title {
+    margin-bottom: 75px;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 80px;
+
+  }
+
+  &__item {
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
   }
 }
