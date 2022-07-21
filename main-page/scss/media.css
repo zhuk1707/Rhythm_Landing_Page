@@ -41,6 +41,22 @@
   .reviews__swiper.swiper {
     margin-left: -15px;
   }
+  /*Favorite*/
+  .page__favorite {
+    margin-bottom: 60px;
+  }
+  .favorite__container {
+    flex-direction: column;
+  }
+  .favorite__body {
+    flex: 0 1 100%;
+  }
+  .favorite__images {
+    flex: 0 1 100%;
+  }
+  .favorite__title:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 768px) {
   .page__store {
@@ -208,6 +224,13 @@
   }
   .slide-swiper-reviews__position {
     font-size: 14px;
+  }
+  /*Favorite*/
+  .page__favorite {
+    margin-bottom: 30px;
+  }
+  .favorite__title {
+    font-size: 38px;
   }
 }
 

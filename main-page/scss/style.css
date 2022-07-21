@@ -503,4 +503,51 @@ body {
   text-transform: uppercase;
 }
 
+/*--Favorite--*/
+.page__favorite {
+  margin-bottom: 120px;
+}
+
+.favorite__container {
+  display: flex;
+  align-items: center;
+}
+.favorite__body {
+  flex: 0 1 50%;
+}
+.favorite__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.4;
+  text-align: left;
+}
+.favorite__title:not(:last-child) {
+  margin-bottom: 60px;
+}
+.favorite__images {
+  flex: 0 1 50%;
+  text-align: center;
+}
+.favorite__images img {
+  max-width: 100%;
+}
+
+.apps-favorite {
+  display: flex;
+  gap: 25px;
+}
+.apps-favorite__item img {
+  max-width: 100%;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.apps-favorite__item img:hover {
+  opacity: 1;
+}
+
+/*--Footer--*/
+.footer {
+  background-color: #EEE;
+}
+
 /*# sourceMappingURL=style.css.map */

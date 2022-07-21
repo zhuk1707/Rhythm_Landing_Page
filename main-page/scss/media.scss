@@ -68,6 +68,34 @@
     }
   }
 
+  /*Favorite*/
+  .page {
+    &__favorite {
+      margin-bottom: 60px;
+    }
+  }
+
+  .favorite {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__body {
+      flex: 0 1 100%;
+    }
+
+    &__images {
+      flex: 0 1 100%;
+    }
+
+    &__title {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+  }
+
 }
 
 
@@ -203,6 +231,8 @@
       margin-bottom: 25px;
     }
   }
+
+
 }
 
 /*----------------------------------------------------*/
@@ -336,6 +366,18 @@
     }
   }
 
+  /*Favorite*/
+  .page {
+    &__favorite {
+      margin-bottom: 30px;
+    }
+  }
+
+  .favorite {
+    &__title {
+      font-size: 38px;
+    }
+  }
 }
 
 

@@ -603,3 +603,66 @@
   }
 }
 
+/*--Favorite--*/
+.page {
+  &__favorite {
+    margin-bottom: 120px;
+  }
+}
+
+.favorite {
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__body {
+    flex: 0 1 50%;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.4;
+    text-align: left;
+
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__apps {
+  }
+
+  &__images {
+    flex: 0 1 50%;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.apps-favorite {
+  display: flex;
+  gap: 25px;
+
+  &__item {
+
+    img {
+      max-width: 100%;
+      opacity: .8;
+
+      transition: all .3s ease;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+/*--Footer--*/
+.footer {
+  background-color: #EEE;
+}
