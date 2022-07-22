@@ -96,6 +96,18 @@
 
   }
 
+  .body-footer {
+    flex-wrap: wrap;
+
+    &__colum{
+      &:first-child {
+        flex: 1 1 100%;
+      }
+    }
+  }
+
+
+
 }
 
 
@@ -232,7 +244,18 @@
     }
   }
 
+  /*Footer*/
 
+  .footer {
+    padding: 50px 20px 25px;
+  }
+
+  .menu-footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+  }
 }
 
 /*----------------------------------------------------*/
@@ -378,6 +401,26 @@
       font-size: 38px;
     }
   }
+
+  /*Footer*/
+  .body-footer {
+    gap: 30px;
+  }
+
+  .menu-footer {
+
+    &__column {
+      margin-bottom: 30px;
+    }
+
+    &__item {
+      &:not(:last-child) {
+        padding-bottom: 15px;
+      }
+    }
+  }
+
 }
+
 
 

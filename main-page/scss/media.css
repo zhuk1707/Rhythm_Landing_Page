@@ -57,6 +57,12 @@
   .favorite__title:not(:last-child) {
     margin-bottom: 30px;
   }
+  .body-footer {
+    flex-wrap: wrap;
+  }
+  .body-footer__colum:first-child {
+    flex: 1 1 100%;
+  }
 }
 @media (max-width: 768px) {
   .page__store {
@@ -135,6 +141,14 @@
   }
   .slide-swiper-reviews__picture {
     margin-bottom: 25px;
+  }
+  /*Footer*/
+  .footer {
+    padding: 50px 20px 25px;
+  }
+  .menu-footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 /*----------------------------------------------------*/
@@ -231,6 +245,16 @@
   }
   .favorite__title {
     font-size: 38px;
+  }
+  /*Footer*/
+  .body-footer {
+    gap: 30px;
+  }
+  .menu-footer__column {
+    margin-bottom: 30px;
+  }
+  .menu-footer__item:not(:last-child) {
+    padding-bottom: 15px;
   }
 }
 
